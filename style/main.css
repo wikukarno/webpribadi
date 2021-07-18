@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", serif;
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar .navbar-nav .active {
+  font-size: 18px;
+  font-weight: 500;
+  color: #020277 !important;
+}
+
+.navbar .navbar-nav a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #020277 !important;
+}
+
+.section-content-header h5 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.section-content-header h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #020277;
+}
+
+.section-content-header p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #c2c2c2;
+}
+
+.section-content-header .btn-hire {
+  background-color: #0e0ef0;
+  color: #fff !important;
+}
+
+.section-content-header .btn-hire:hover {
+  background-color: #0303b3;
+  color: #fff;
+}
+
+.section-about-content {
+  margin-top: 120px;
+}
+
+.section-about-content h3 {
+  font-family: "Merriweather Sans";
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section-about-content .a-information {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-about-content p {
+  color: #363636;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-education-content .figure h5 {
+  color: #000;
+  font-weight: 500;
+  font-family: "Merriweather Sans";
+  font-size: 20px;
+}
+
+.section-education-content .figure p {
+  color: #363636;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-services-content {
+  margin-top: 120px;
+}
+
+.section-services-content h3 {
+  font-family: "Merriweather Sans";
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section-services-content .a-information {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-services-content h5 {
+  font-family: "Merriweather Sans";
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section-services-content p {
+  color: #363636;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.section-portofolio-content {
+  margin-top: 120px;
+}
+
+.section-portofolio-content h3 {
+  font-family: "Merriweather Sans";
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section-portofolio-content .a-information {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-portofolio-content a {
+  text-decoration: none;
+}
+
+.section-portofolio-content .p-content-img {
+  margin-top: 50px;
+}
+
+.section-portofolio-content h2 {
+  font-size: 1.2rem;
+  font-family: "Merriweather Sans";
+  color: #000;
+}
+
+.section-portofolio-content .p-more .p-date {
+  color: #363636 !important;
+}
+
+.section-portofolio-content .p-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+
+.section-portofolio-content .p-box:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.section-portofolio-content .p-box {
+  display: block;
+  overflow: hidden;
+}
+
+.section-portofolio-content .p-box img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #020277;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
