@@ -8,11 +8,15 @@
     <title>Wiku Karno</title>
 
     <!-- Css -->
+    <link rel="shorcut icon" href="/images/logo/mylogo.svg">
     <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/libraries/lightbox/css/lightbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="/libraries/lightbox/css/lightbox.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/style/main.css" />
 
     <!-- End Css -->
@@ -23,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid container">
             <a class="navbar-brand" href="#">
-                <img src="/images/Logo/mylogo.png" alt="" />
+                <img src="/images/Logo/logo.png" class="img-fluid" alt="" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,7 +38,7 @@
                     <a class="nav-link" href="#about">About Me</a>
                     <a class="nav-link" href="#services">Services</a>
                     <a class="nav-link" href="#portofolio">Portofolio</a>
-                    <a class="nav-link" href="https://wa.me/082295024272?text=Hallo%wiku,%saya%ingin%mempekerjakan%anda" target="_blank">Contact Me</a
+                    <a class="nav-link" href="#contact">Contact Me</a
             >
           </div>
         </div>
@@ -51,7 +55,7 @@
           </div>
           <div class="col-lg-12 mt-3">
             <h5>Hi, Everyone</h5>
-            <h1>I am, Wiku Karno</h1>
+            <h1>I am Wiku Karno</h1>
             <p>Ui Designer &nbsp; | &nbsp; Developer</p>
           </div>
           <div class="col mt-3">
@@ -68,7 +72,7 @@
     <!-- End Header -->
 
     <!-- About -->
-    <section class="section-about-content">
+    <section class="section-about-content" id="about">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 text-center">
@@ -102,12 +106,45 @@
           <div class="col-12 col-md-6 col-lg-3 text-center">
             <figure class="figure pt-5">
               <img
-                src="/images/developer.png"
+                src="/images/ic_graduation.png"
                 class="figure-img img-fluid rounded"
                 alt="..."
               />
               <h5 class="figure-caption">2006 - 2012</h5>
               <p>SDN 012 Tanah Tinggi, Kampar</p>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <figure class="figure pt-5">
+              <img
+                src="/images/ic_graduation.png"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <h5 class="figure-caption">2012 - 2015</h5>
+              <p>MTs Jabal Nur, Kandis</p>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <figure class="figure pt-5">
+              <img
+                src="/images/ic_graduation.png"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <h5 class="figure-caption">2015 - 2018</h5>
+              <p>MA Jabal Nur, Kandis</p>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <figure class="figure pt-5">
+              <img
+                src="/images/ic_graduation.png"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <h5 class="figure-caption">2018 - 2022</h5>
+              <p>Universitas Islam Riau</p>
             </figure>
           </div>
         </div>
@@ -116,7 +153,7 @@
     <!-- End Educations -->
 
     <!-- Services -->
-    <section class="section-services-content">
+    <section class="section-services-content" id="services">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 text-center">
@@ -125,21 +162,74 @@
           </div>
           <div class="line-mf"></div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-12 col-md-6 col-lg-3 text-center">
-            <figure class="figure">
-              <img
-                src="/images/developer.png"
-                class="figure-img img-fluid rounded"
-                alt="..."
-              />
-              <h5 class="figure-caption">Web Designer</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </figure>
+            <div class="s-box">
+              <figure class="figure">
+                <img
+                  src="/images/services/code.png"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+                <h5 class="figure-caption">Developer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="s-box">
+              <figure class="figure">
+                <img
+                  src="/images/services/designer.png"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+                <h5 class="figure-caption">Web Designer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="s-box">
+              <figure class="figure">
+                <img
+                  src="/images/services/inovation.png"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+                <h5 class="figure-caption">Inovation</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="s-box">
+              <figure class="figure">
+                <img
+                  src="/images/services/content_writer.png"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+                <h5 class="figure-caption">Content Writer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
@@ -147,7 +237,7 @@
     <!-- End Services -->
 
     <!-- Portofolio -->
-    <section class="section-portofolio-content">
+    <section class="section-portofolio-content" id="portofolio">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 text-center">
@@ -163,22 +253,8 @@
                 <div class="p-box w-100">
                   <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
                 </div>
-                <div class="p-content">
-                  <h2 class="p-title">Loreda Cuno Nere</h2>
-                      <div class="p-more">
-                        <span class="p-ctegory">Web Design</span> / 
-                        <span class="p-date">18 Sep. 2018</span>
-                      </div>
-                </div>
               </a>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="p-box">
-                    <a href="/images/portofolio/work-1.jpg" data-lightbox="gallery-mf">
-                        <div class="p-box w-100">
-                            <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
-                        </div>
+                    <a href="detail.html">
                         <div class="p-content">
                             <h2 class="p-title">Loreda Cuno Nere</h2>
                             <div class="p-more">
@@ -195,6 +271,8 @@
                         <div class="p-box w-100">
                             <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
                         </div>
+                    </a>
+                    <a href="detail.html">
                         <div class="p-content">
                             <h2 class="p-title">Loreda Cuno Nere</h2>
                             <div class="p-more">
@@ -203,6 +281,25 @@
                             </div>
                         </div>
                     </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="p-box">
+                    <a href="/images/portofolio/work-1.jpg" data-lightbox="gallery-mf">
+                        <div class="p-box w-100">
+                            <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
+                        </div>
+                    </a>
+                    <a href="detail.html">
+                        <div class="p-content">
+                            <h2 class="p-title">Loreda Cuno Nere</h2>
+                            <div class="p-more">
+                                <span class="p-ctegory">Web Design</span> /
+                                <span class="p-date">18 Sep. 2018</span>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -210,11 +307,12 @@
         <!-- End Portofolio -->
 
         <!-- Messages -->
-        <section class="section-messages-content">
+        <section class="section-messages-content" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 mb-4">
                         <h3>Send Message Us</h3>
+                        <div class="line-mf"></div>
                         <form>
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
@@ -239,43 +337,44 @@
                         <div class="row">
                             <div class="title">
                                 <h3>Social Media</h3>
+                                <div class="line-mf"></div>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-yt">
                                     <div class="figure">
                                         <img src="/images/social/youtube.png" class="figure-img img-fluid" alt="">
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-ig">
                                     <div class="figure">
                                         <img src="/images/social/instagram.png" class="figure-img img-fluid" alt="">
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-linked">
                                     <div class="figure">
                                         <img src="/images/social/linkedin.png" class="figure-img img-fluid" alt="">
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-git">
                                     <div class="figure">
                                         <img src="/images/social/github.png" class="figure-img img-fluid" alt="">
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-drib">
                                     <div class="figure">
                                         <img src="/images/social/dribbble.png" class="figure-img img-fluid" alt="">
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-3 mt-3">
+                            <div class="col-4 col-lg-2 mt-3">
                                 <a href="#" class="s-beh">
                                     <div class="figure">
                                         <img src="/images/social/behance.png" class="figure-img img-fluid" alt="">
@@ -289,12 +388,19 @@
         </section>
         <!-- End Messages -->
 
+        <!-- back to top -->
+        <a href="# " class="to-top ">
+            <i class="fas fa-chevron-up "></i>
+        </a>
+        <!-- back to top -->
+
         <!-- Footer -->
-        <footer class="section-footer mb-3">
+        <footer class="section-footer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,90.7C672,107,768,181,864,186.7C960,192,1056,128,1152,90.7C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        All right reserved by <a href="#">wikukarno.id</a>
+                        <p> All right reserved by <a href="#">wikukarno.id</a></p>
                     </div>
                 </div>
             </div>
@@ -305,8 +411,11 @@
         <script src="/libraries/jquery/jquery-3.6.0.js"></script>
         <script src="/libraries/bootstrap/js/bootstrap.js"></script>
         <script src="libraries/lightbox/js/lightbox-plus-jquery.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
-        />
+        <script src="/libraries/aos/aos.js"></script>
+        <script src="/script/main.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <!-- End Script -->
 </body>
 
