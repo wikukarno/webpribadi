@@ -127,15 +127,17 @@ html {
     p {
         color: #363636;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
     }
-    .s-box {
+    .card {
+        max-height: 300px !important;
+        min-height: 300px !important;
         border-radius: 12px;
         background: #ffffff;
         box-shadow: 0px 4px 4px rgba(95, 95, 95, 0.3);
         margin-bottom: 20px;
         .figure {
-            padding-top: 15px;
+            padding-top: 30px;
             img {
                 max-height: 80px;
             }
@@ -173,7 +175,7 @@ html {
         }
     }
     .p-box {
-        margin-bottom: 3rem;
+        margin-bottom: 30px;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         background-color: #fff;
@@ -189,9 +191,9 @@ html {
     .p-box img {
         transition: all 1s;
     }
-    // .p-content {
-    //     padding: 15px;
-    // }
+    .p-content {
+        margin-bottom: 30px;
+    }
 }
 
 .section-messages-content {
@@ -217,6 +219,9 @@ html {
         background-color: #0d6efd;
         margin: 0;
     }
+    button {
+        border-radius: 20px;
+    }
     input {
         border-radius: 20px;
     }
@@ -240,6 +245,16 @@ footer {
     p {
         margin-top: -45px;
         color: #fff;
+    }
+}
+
+.social-media-content {
+    .s-information {
+        padding-top: 28px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
     }
 }
 
@@ -277,3 +292,15 @@ footer {
 }
 
 // End to-top
+// ============================================= //
+// Details Css //
+// ============================================= //
+.section-breadcrumb-content {
+    a {
+        text-decoration: none;
+    }
+    li {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
