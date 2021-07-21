@@ -190,11 +190,14 @@ html {
   color: #363636 !important;
 }
 
+.section-portofolio-content .portofolio-content-img {
+  background-color: #fff;
+}
+
 .section-portofolio-content .p-box {
   margin-bottom: 30px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
 }
 
 .section-portofolio-content .p-box:hover img {
@@ -205,6 +208,7 @@ html {
 .section-portofolio-content .p-box {
   display: block;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .section-portofolio-content .p-box img {
@@ -214,87 +218,59 @@ html {
 
 .section-portofolio-content .p-content {
   margin-bottom: 30px;
+  background-color: #fff;
 }
 
-.section-messages-content {
-  margin-bottom: 50px;
-  margin-top: 100px;
+.section-footer {
+  background-color: #fff;
+  margin-top: 80px;
 }
 
-.section-messages-content h3 {
-  font-family: "Merriweather Sans";
-  font-size: 32px;
-  font-weight: 500;
-  color: #000;
+.section-footer .figure a img {
+  max-height: 50px;
 }
 
-.section-messages-content form {
-  margin-top: 30px;
+.section-footer .figure h5 {
+  font-size: 20px;
+  color: #363636;
 }
 
-.section-messages-content .figure {
-  margin-top: 30px;
-}
-
-.section-messages-content .figure img {
-  max-height: 70px;
-}
-
-.section-messages-content .line-mf {
-  width: 40px;
-  height: 5px;
-  background-color: #0d6efd;
-  margin: 0;
-}
-
-.section-messages-content button {
-  border-radius: 20px;
-}
-
-.section-messages-content input {
-  border-radius: 20px;
-}
-
-.section-messages-content textarea {
-  border-radius: 20px;
-  height: 100px;
-}
-
-footer {
-  margin-top: -40px;
-  font-size: 18px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #fff;
-}
-
-footer a:hover {
-  color: #020277;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-footer p {
-  margin-top: -45px;
-  color: #fff;
-}
-
-.social-media-content .s-information {
-  padding-top: 28px;
-}
-
-.social-media-content p {
+.section-footer .figure .address {
   font-size: 18px;
   font-weight: 400;
 }
 
-.line-mf {
-  width: 40px;
-  height: 5px;
-  background-color: #0d6efd;
-  margin: 0 auto;
+.section-footer .figure .contact-us {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-footer h5 {
+  font-size: 22px;
+  color: #363636;
+}
+
+.section-footer li {
+  list-style: none;
+  margin-left: -32px;
+}
+
+.section-footer a {
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636 !important;
+}
+
+.section-footer a:hover {
+  color: #085cda !important;
+}
+
+.section-footer .copyright {
+  margin-top: 80px !important;
+  margin-bottom: 10px !important;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .to-top {
