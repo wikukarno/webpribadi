@@ -222,7 +222,9 @@ html {
 }
 
 .section-social-media {
+  background-color: #fff;
   margin-top: 100px;
+  height: 350px;
 }
 
 .section-social-media img {
@@ -249,7 +251,7 @@ html {
 }
 
 footer {
-  margin-top: 50px;
+  background-color: #fff;
 }
 
 footer .f-description {
