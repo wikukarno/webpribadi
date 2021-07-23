@@ -218,9 +218,15 @@ html {
             color: #0d6efd;
         }
     }
+    .social-media {
+        img {
+            max-height: 30px !important;
+        }
+    }
 }
 
 footer {
+    margin-top: 50px;
     .f-description {
         text-decoration: none;
         color: #363636;
