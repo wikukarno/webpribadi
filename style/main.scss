@@ -201,49 +201,35 @@ html {
     }
 }
 
-.section-footer {
-    background-color: #fff;
-    margin-top: 80px;
-    .figure {
-        a {
-            img {
-                max-height: 50px;
-            }
-        }
-        h5 {
-            font-size: 20px;
-            color: #363636;
-        }
-        .address {
-            font-size: 18px;
-            font-weight: 400;
-        }
-        .contact-us {
-            font-size: 18px;
-            font-weight: 400;
-        }
+.section-social-media {
+    margin-top: 100px;
+    img {
+        max-height: 50px;
     }
-    h5 {
-        font-size: 22px;
+    .description {
         color: #363636;
-    }
-    li {
-        list-style: none;
-        margin-left: -32px;
+        font-size: 16px;
     }
     a {
-        text-decoration: none !important;
-        font-size: 18px;
-        font-weight: 400;
-        color: #363636 !important;
+        color: #363636;
+        text-decoration: none;
+        font-size: 16px;
         &:hover {
-            color: #085cda !important;
+            color: #0d6efd;
         }
     }
-    .copyright {
-        margin-top: 80px !important;
-        font-size: 18px;
-        font-weight: 400;
+}
+
+footer {
+    .f-description {
+        text-decoration: none;
+        color: #363636;
+        font-size: 16px;
+    }
+    a {
+        text-decoration: none;
+        color: #363636;
+        font-size: 16px;
     }
 }
 

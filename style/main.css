@@ -221,55 +221,39 @@ html {
   background-color: #fff;
 }
 
-.section-footer {
-  background-color: #fff;
-  margin-top: 80px;
+.section-social-media {
+  margin-top: 100px;
 }
 
-.section-footer .figure a img {
+.section-social-media img {
   max-height: 50px;
 }
 
-.section-footer .figure h5 {
-  font-size: 20px;
+.section-social-media .description {
   color: #363636;
+  font-size: 16px;
 }
 
-.section-footer .figure .address {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.section-footer .figure .contact-us {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.section-footer h5 {
-  font-size: 22px;
+.section-social-media a {
   color: #363636;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.section-footer li {
-  list-style: none;
-  margin-left: -32px;
+.section-social-media a:hover {
+  color: #0d6efd;
 }
 
-.section-footer a {
-  text-decoration: none !important;
-  font-size: 18px;
-  font-weight: 400;
-  color: #363636 !important;
+footer .f-description {
+  text-decoration: none;
+  color: #363636;
+  font-size: 16px;
 }
 
-.section-footer a:hover {
-  color: #085cda !important;
-}
-
-.section-footer .copyright {
-  margin-top: 80px !important;
-  font-size: 18px;
-  font-weight: 400;
+footer a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 16px;
 }
 
 .to-top {
