@@ -5,8 +5,6 @@ body {
   font-family: "roboto", serif;
   background-color: #f5f5f5;
   color: #4e4e4e;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   -webkit-transition: background 0.5s linear;
   transition: background 0.5s linear;
 }
@@ -65,6 +63,47 @@ html {
   font-size: 18px;
   font-weight: normal;
   color: #363636 !important;
+}
+
+.section-footer {
+  background-color: #fff;
+  margin-top: 100px;
+  height: 350px;
+}
+
+.section-footer img {
+  max-height: 50px;
+}
+
+.section-footer .description {
+  color: #363636;
+  font-size: 16px;
+}
+
+.section-footer a {
+  color: #363636;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.section-footer a:hover {
+  color: #0d6efd;
+}
+
+.section-footer .social-media img {
+  max-height: 30px !important;
+}
+
+.section-footer .f-description {
+  text-decoration: none;
+  color: #363636;
+  font-size: 16px;
+}
+
+.section-footer a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 16px;
 }
 
 .section-about-content {
@@ -150,51 +189,6 @@ html {
 
 .section-content-login form .card {
   border-radius: 20px;
-}
-
-.section-social-media {
-  background-color: #fff;
-  margin-top: 100px;
-  height: 350px;
-}
-
-.section-social-media img {
-  max-height: 50px;
-}
-
-.section-social-media .description {
-  color: #363636;
-  font-size: 16px;
-}
-
-.section-social-media a {
-  color: #363636;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.section-social-media a:hover {
-  color: #0d6efd;
-}
-
-.section-social-media .social-media img {
-  max-height: 30px !important;
-}
-
-footer {
-  background-color: #fff;
-}
-
-footer .f-description {
-  text-decoration: none;
-  color: #363636;
-  font-size: 16px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #363636;
-  font-size: 16px;
 }
 
 .section-portofolio-content {
