@@ -1,13 +1,13 @@
 // Detail Portofolio CSS
 //=======================
 .section-portofolio-gallery {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     img {
         border-radius: 8px;
-        max-height: 530px;
+        max-height: 495px;
     }
     .thumbnail-image {
-        margin-bottom: 24px;
+        margin-bottom: 20px;
         border: 2px solid transparent;
         &:hover,
         &.active {
@@ -15,3 +15,5 @@
         }
     }
 }
+
+.section-detail-portofolio {}

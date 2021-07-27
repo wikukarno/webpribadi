@@ -355,16 +355,16 @@ footer a {
 }
 
 .section-portofolio-gallery {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .section-portofolio-gallery img {
   border-radius: 8px;
-  max-height: 530px;
+  max-height: 495px;
 }
 
 .section-portofolio-gallery .thumbnail-image {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   border: 2px solid transparent;
 }
 
