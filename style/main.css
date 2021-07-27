@@ -1,4 +1,3 @@
-@import url(d:\FINANSIAL\frontend\libraries\bootstrap\css\bootstrap.css);
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 body {
   margin: 0;
@@ -331,7 +330,7 @@ footer a {
 }
 
 .section-content-header p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   color: #494949;
 }
@@ -353,5 +352,40 @@ footer a {
 .section-breadcrumb-content li {
   font-size: 18px;
   font-weight: 400;
+}
+
+.section-portofolio-gallery {
+  margin-bottom: 50px;
+}
+
+.section-portofolio-gallery img {
+  border-radius: 8px;
+  max-height: 530px;
+}
+
+.section-portofolio-gallery .thumbnail-image {
+  margin-bottom: 24px;
+  border: 2px solid transparent;
+}
+
+.section-portofolio-gallery .thumbnail-image:hover, .section-portofolio-gallery .thumbnail-image.active {
+  border: 2px solid #0d6efd;
+}
+
+.slide-fade-enter-active {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.slide-fade-leave-active {
+  -webkit-transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+  opacity: 0.1;
 }
 /*# sourceMappingURL=main.css.map */
