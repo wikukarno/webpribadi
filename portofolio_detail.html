@@ -57,14 +57,14 @@
     <section class="section-portofolio-gallery mt-4" id="portofolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-xl-10" data-aos="zoom-in">
+                <div class="col-lg-10 col-xl-10">
                     <transition name="slide-fade" mode="out-in">
                         <img :key="photos[activePhoto].id" :src="photos[activePhoto].url" class="main-image w-100" alt="" />
                     </transition>
                 </div>
                 <div class="col-lg-2">
                     <div class="row">
-                        <div class="col-3 col-lg-12 mt-2 mt-lg-0" v-for="(photo, index) in photos" :key="photo.id" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="col-3 col-lg-12 mt-2 mt-lg-0" v-for="(photo, index) in photos" :key="photo.id">
                             <a href="#" @click="changeActive(index)">
                                 <img :src="photo.url" class="w-100 h-75 thumbnail-image" :class="{ active: index == activePhoto }" alt="" />
                             </a>
@@ -79,12 +79,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <div class="edition">Full Edition</div>
+                        <div class="edition" data-aos="zoom-in" data-aos-delay="1000">Full Edition</div>
                         <h1>Buana Store Ecommerce</h1>
                         <div class="category">Web Design & Code</div>
                     </div>
-                    <div class="col-lg-2">
-                        <a href="#" class="btn btn-success nav-link px-4 text-white btn-block mb-3 mt-4">Go to Project</a>
+                    <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="1100">
+                        <a href="#" class="btn btn-primary nav-link px-4 text-white btn-block mb-3 mt-4">Go to Project</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Description Project</h3>
-                        <div class="description">
+                        <div class="description mt-4">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
@@ -106,25 +106,28 @@
                     </div>
                     <div class="col-lg-6">
                         <h3>Tools</h3>
-                        <div class="description-tools">
+                        <div class="description-tools mt-4">
                             <div class="row">
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="100">
+                                    <img src="/images/tools/mysql.png" class="w-75" alt="">
                                 </div>
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="200">
+                                    <img src="/images/tools/bootstrap.png" class="w-75" alt="">
                                 </div>
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="300">
+                                    <img src="/images/tools/vscode.png" class="w-75" alt="">
                                 </div>
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="400">
+                                    <img src="/images/tools/figma.png" class="w-75" alt="">
                                 </div>
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="500">
+                                    <img src="/images/tools/notions.png" class="w-75" alt="">
                                 </div>
-                                <div class="col-2 mb-3 col-lg-2">
-                                    <img src="/images/img-1.png" class="w-75" alt="">
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="600">
+                                    <img src="/images/tools/vue.png" class="w-75" alt="">
+                                </div>
+                                <div class="col-3 mb-3 col-md-2 col-lg-2 img-fluid" data-aos="zoom-in" data-aos-delay="700">
+                                    <img src="/images/tools/laravel.png" class="w-75" alt="">
                                 </div>
                             </div>
                         </div>
