@@ -194,7 +194,7 @@ html {
 .section-blog .form-comments,
 .section-blog .widget-sidebar,
 .section-blog .box-comments {
-  padding: 2rem;
+  padding: 1rem;
   background-color: #fff;
   margin-bottom: 3rem;
   border-radius: 8px;
@@ -208,7 +208,8 @@ html {
 }
 
 .section-blog .article-title {
-  font-size: 2rem;
+  font-size: 30px;
+  font-weight: 600;
   font-family: "Merriweather Sans";
   color: #000;
 }
