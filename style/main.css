@@ -152,6 +152,100 @@ html {
   margin: auto;
 }
 
+.section-content-header h3 {
+  font-family: "Merriweather Sans";
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-content-header span {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-content-header .description {
+  margin-top: 16px;
+  line-height: 28px;
+  color: #363636;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-profile-content {
+  margin-top: 70px;
+}
+
+.section-profile-content h3 {
+  font-family: "Merriweather Sans";
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-profile-content span {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-profile-content .a-information {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-profile-content p {
+  color: #363636;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-profile-content label {
+  margin-bottom: 10px;
+  margin-top: 16px;
+  color: #363636;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-education-content span {
+  color: #8d8d8d;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.section-education-content .figure h5 {
+  color: #000;
+  font-weight: 500;
+  font-family: "Merriweather Sans";
+  font-size: 20px;
+}
+
+.section-education-content .figure p {
+  color: #363636;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-education-content .figure img {
+  max-height: 80px;
+}
+
+.line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: auto;
+}
+
+.underline {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+}
+
 .section-content-login figure h3 {
   font-family: "Merriweather Sans";
   font-weight: bold;
@@ -195,155 +289,6 @@ html {
 
 .section-content-login form .card {
   border-radius: 20px;
-}
-
-.section-blog .post-box,
-.section-blog .form-comments,
-.section-blog .widget-sidebar,
-.section-blog .box-comments {
-  margin-bottom: 3rem;
-}
-
-.section-blog .post-box img,
-.section-blog .form-comments img,
-.section-blog .widget-sidebar img,
-.section-blog .box-comments img {
-  border-radius: 8px;
-}
-
-.section-blog .article-title {
-  font-size: 30px;
-  font-weight: 600;
-  font-family: "Merriweather Sans";
-  color: #000;
-}
-
-.section-blog .post-meta {
-  margin: 2rem 0;
-}
-
-.section-blog .post-meta ul {
-  border-left: 4px solid #0078ff;
-  margin-top: 1rem;
-  margin-right: -50px !important;
-}
-
-.section-blog .post-meta ul li {
-  display: inline-block;
-  margin-left: -10px;
-  margin-right: 20px;
-}
-
-.section-blog .post-meta ul a {
-  color: #0078ff;
-}
-
-.section-blog .blockquote {
-  border-left: 4px solid #0078ff;
-  padding: 18px;
-  font-style: italic;
-}
-
-.section-blog .box-comments .list-comments {
-  margin-left: -35px;
-}
-
-.section-blog .box-comments .list-comments li {
-  padding-bottom: 40px;
-  list-style: none;
-}
-
-.section-blog .box-comments .list-comments a {
-  color: #0078ff;
-  text-decoration: none;
-}
-
-.section-blog .box-comments .list-comments span {
-  color: #1e1e1e;
-  font-style: italic;
-}
-
-.section-blog .box-comments .title-comments {
-  font-size: 28px;
-  font-weight: 600;
-  font-family: "Merriweather Sans";
-  color: #000;
-}
-
-.section-blog .box-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.section-blog .box-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
-}
-
-.section-blog .box-comments .comment-author {
-  font-size: 1.3rem;
-}
-
-.section-blog .box-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-
-.section-blog .box-comments .comment-children {
-  margin-left: 40px;
-}
-
-.section-blog .form-comments h3 {
-  font-size: 28px;
-  color: #000;
-  font-weight: 600;
-  font-family: "Merriweather Sans";
-}
-
-.line-mf {
-  width: 40px;
-  height: 5px;
-  background-color: #0078ff;
-  margin: 0;
-}
-
-.sidebar-search h3 {
-  font-size: 28px;
-  color: #000;
-  font-weight: 600;
-  font-family: "Merriweather Sans";
-  border-left: 4px solid #0078ff;
-  margin-top: 1rem;
-  margin-right: -50px !important;
-  padding-left: 20px;
-  margin-top: -1px;
-}
-
-.sidebar-title {
-  font-size: 28px;
-  color: #000;
-  font-weight: 600;
-  font-family: "Merriweather Sans";
-  border-left: 4px solid #0078ff;
-  margin-top: 1rem;
-  margin-right: -50px !important;
-  padding-left: 20px;
-  margin-top: -1px;
-}
-
-.sidebar-content {
-  line-height: 30px;
-}
-
-.sidebar-content a {
-  text-decoration: none;
-  color: #4e4e4e;
-}
-
-.sidebar-content a:hover {
-  color: #0078ff;
 }
 
 .section-portofolio-content {
