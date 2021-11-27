@@ -11,7 +11,6 @@
     <link rel="shorcut icon" href="/images/logo.png">
     <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/libraries/lightbox/css/lightbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -34,11 +33,12 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link me-4 active" href="#">Home</a>
+                    <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="#about">About Me</a>
                     <a class="nav-link" href="#services">Services</a>
                     <a class="nav-link" href="#portofolio">Portofolio</a>
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</a>
+                    <a class="nav-link" href="#video">Video</a>
+                    <a class="nav-link" href="https://blog.wikukarno.id/" target="_blank">Blog</a>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
                     <p>Junior <span class="typed text-primary" data-typed-items="Ui Designer, Developer, Content Writter"></span></p>
                 </div>
                 <div class="col mt-3">
-                    <a href="" class="btn btn-hire">Hire Me</a
+                    <a href="" class="btn btn-hire">Download CV</a
             >
           </div>
         </div>
@@ -95,7 +95,7 @@
     <!-- End About -->
 
     <!-- Educations -->
-    <section class="section-education-content">
+    <section class="section-education-content mt-5" id="education">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3 text-center">
@@ -218,72 +218,94 @@
           <div class="line-mf"></div>
         </div>
         <div class="row p-content-img">
-            <div class="col-md-4 text-center">
-            <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="100">
-              <figure class="figure">
-                    <a href="/images/portofolio/work-1.jpg" data-lightbox="gallery-mf">
-                      <div class="p-box">
-                        <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid" data-lightbox="gallery-mf">
-                      </div>
-                    </a>
-                    </a>
-                    </figure>
-                    <a href="portofolio_detail.html">
-                        <div class="p-content">
-                            <h2 class="p-title">Loreda Cuno Nere</h2>
-                            <div class="p-more">
-                                <span class="p-ctegory">Web Design</span> /
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                <a href="#">
+                    <div class="card border-0 text-center">
+                        <img src="/images/portofolio/work-1.jpg" class="card-img-top img-fluid rounded-top" alt="portofolio">
+                        <div class="card-body">
+                            <h5 class="card-title pt-3">Loreda Cuno Nere</h5>
+                            <div class="p-more pb-3">
+                                <span class="p-category">Web Design</span> /
                                 <span class="p-date">18 Sep. 2018</span>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="200">
-                    <figure class="figure">
-                        <a href="/images/portofolio/work-1.jpg" data-lightbox="gallery-mf">
-                            <div class="p-box">
-                                <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid" data-lightbox="gallery-mf">
-                            </div>
-                        </a>
-                        </a>
-                    </figure>
-                    <a href="portofolio_detail.html">
-                        <div class="p-content">
-                            <h2 class="p-title">Loreda Cuno Nere</h2>
-                            <div class="p-more">
-                                <span class="p-ctegory">Web Design</span> /
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                <a href="#">
+                    <div class="card border-0 text-center">
+                        <img src="/images/portofolio/work-1.jpg" class="card-img-top img-fluid rounded-top" alt="portofolio">
+                        <div class="card-body">
+                            <h5 class="card-title pt-3">Loreda Cuno Nere</h5>
+                            <div class="p-more pb-3">
+                                <span class="p-category">Web Design</span> /
                                 <span class="p-date">18 Sep. 2018</span>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="300">
-                    <figure class="figure">
-                        <a href="/images/portofolio/work-1.jpg" data-lightbox="gallery-mf">
-                            <div class="p-box">
-                                <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid" data-lightbox="gallery-mf">
-                            </div>
-                        </a>
-                        </a>
-                    </figure>
-                    <a href="portofolio_detail.html">
-                        <div class="p-content">
-                            <h2 class="p-title">Loreda Cuno Nere</h2>
-                            <div class="p-more">
-                                <span class="p-ctegory">Web Design</span> /
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                <a href="#">
+                    <div class="card border-0 text-center">
+                        <img src="/images/portofolio/work-1.jpg" class="card-img-top img-fluid rounded-top" alt="portofolio">
+                        <div class="card-body">
+                            <h5 class="card-title pt-3">Loreda Cuno Nere</h5>
+                            <div class="p-more pb-3">
+                                <span class="p-category">Web Design</span> /
                                 <span class="p-date">18 Sep. 2018</span>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
     <!-- End Portofolio -->
+
+
+    <!-- Video -->
+    <section class="section-video-content" id="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12 text-center">
+                    <h3>Video</h3>
+                    <p class="a-information">visit my channel to find tutorials about programming</p>
+                </div>
+                <div class="line-mf"></div>
+            </div>
+            <div class="row p-content-img">
+                <div class="col-md-4 text-center">
+                    <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="100">
+                        <figure class="figure">
+                            <a href="/images/portofolio/work-1.jpg">
+                                <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="100">
+                        <figure class="figure">
+                            <a href="/images/portofolio/work-1.jpg">
+                                <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portofolio-content-img text-center" data-aos="zoom-in" data-aos-delay="100">
+                        <figure class="figure">
+                            <a href="/images/portofolio/work-1.jpg">
+                                <img src="/images/portofolio/work-1.jpg" alt="" class="figure-img img-fluid">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End Video -->
 
     <section class="section-footer">
         <div class="container">
@@ -296,23 +318,24 @@
                             <P class="description">
                                 Tanah Tinggi <br> Kecamatan Tapung Hilir <br> Kabupaten Kampar, Riau.
                             </P>
+                            <ul class="list-unstyled">
+                                <li><a href="#">+62 878 - 3124 - 7352</a></li>
+                                <li><a href="#">me@wikukarno.id</a></li>
+                            </ul>
                         </div>
                         <div class="col-12 col-lg-3">
                             <h5>ABOUT ME</h5>
                             <ul class="list-unstyled">
-                                <li><a href="about-profile.html">Profile</a></li>
-                                <li><a href="about-profile.html">Education</a></li>
-                                <li><a href="about-profile.html">Skill</a></li>
-                                <li><a href="#">Portofolio</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#portofolio">Portofolio</a></li>
+                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#profile">Profile</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-lg-3">
                             <h5>USEFUL LINK</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Term of Services</a></li>
+                                <li><a href="https://wikukarno.id">Article</a></li>
+                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#contact">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-lg-3">
@@ -320,10 +343,6 @@
                             <p class="description">
                                 If you are interested in my work, please send a message to cooperate. You can also browse my social media below to see the best works and content from me.
                             </p>
-                            <ul class="list-unstyled">
-                                <li><a href="#">+62 878 - 3124 - 7352</a></li>
-                                <li><a href="#">me@wikukarno.id</a></li>
-                            </ul>
                             <div class="row social-media">
                                 <div class="col-2 col-lg-2">
                                     <a href="#">
@@ -371,51 +390,122 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section class="section-contact">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Send Message Us</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Modal Profile -->
+    <div class="modal fade" id="profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-content border-0 text-center">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h3>My Profile</h3>
+                                <p>Information about personal profile</p>
+                                <div class="line-mf"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <form action="#">
-                            <div class="row g-3 mb-3">
-                                <div class="col-12 col-lg-6">
-                                    <label for="name">Username</label>
-                                    <input type="text" class="form-control" name="name">
+                </div>
+                <div class="modal-body">
+                    <section class="section-content-skill">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-6 text-center">
+                                    <div class="image-profile">
+                                        <figure class="figure">
+                                            <img src="/images/hero/wiku_profile.png" class="figure-img img-fluid" style="max-height: 250px;" alt="">
+                                        </figure>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-lg-6">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" class="form-control" name="email">
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <table class="table table-borderless">
+                                        <div class="table-responsive-sm">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-user"></i> &nbsp; Name</th>
+                                                    <td colspan="2">Wiku Karno Prasetyagama</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-calendar-alt"></i> &nbsp; Date of Birth</th>
+                                                    <td colspan="2">05 March 2000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-envelope"></i> &nbsp; Email</th>
+                                                    <td colspan="2">me@wikukarno.id</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-phone-alt"></i> &nbsp; Phone</th>
+                                                    <td colspan="2">+62 87831247352</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-globe"></i> &nbsp; Web</th>
+                                                    <td colspan="2">wikukarno.id</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><i class="fas fa-map-marked-alt"></i> &nbsp; Address</th>
+                                                    <td colspan="2">Pekanbaru</td>
+                                                </tr>
+                                            </tbody>
+                                        </div>
+                                    </table>
                                 </div>
                             </div>
-                            <div class="row g-3 mb-3">
-                                <div class="col">
-                                    <label for="name">Subject</label>
-                                    <input type="text" class="form-control" name="subject">
-                                </div>
-                            </div>
-                            <div class="row g-3 mb-3">
-                                <div class="col">
-                                    <label for="name">Message</label>
-                                    <textarea class="form-control h-100" id="message-text"></textarea>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer mt-5">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary">Send</button>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Contact -->
+    </div>
+    <!-- End Modal Profile -->
+
+    <!-- Modal Contact Us -->
+    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-content border-0 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Contact Me</h3>
+                                <p class="mb-3">Send me a message if you want to do cooperation or business</p>
+                                <div class="line-mf"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <section class="section-content-skill">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-6 text-center">
+                                    <figure class="figure">
+                                        <img src="/images/barcode.svg" alt="" class="figure-img img-fluid" style="max-height: 200px;">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-12 text-center">
+                                    <h3>Scan Here!</h3>
+                                    <p>Scan the barcode above to send a message <br> Or click the button below</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-4 text-center">
+                                    <a href="mailto:me@wikukarno.id" class="btn btn-outline-primary align-items-center">Send Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us -->
 
 
 
@@ -430,7 +520,6 @@
     <!-- Script -->
     <script src="/libraries/jquery/jquery-3.6.0.js"></script>
     <script src="/libraries/bootstrap/js/bootstrap.js"></script>
-    <script src="libraries/lightbox/js/lightbox-plus-jquery.js"></script>
     <script src="/libraries/aos/aos.js"></script>
     <script src="/libraries/typed/typed.min.js"></script>
     <script src="/script/main.js"></script>
